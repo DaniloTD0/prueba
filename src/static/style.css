@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#header {
+    background-color: #333;
+    padding: 20px ;
+    color: white;
+    text-align: center;
+    
+}
+
+#h1{
+    color: #fff;
+}
+
+#nav {
+    width: 200px;
+    float: left;
+    background-color: #f4f4f4;
+    padding: 15px;
+}
+
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#nav ul li {
+    margin-bottom: 10px;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#nav ul li a:hover {
+    background-color: #bbb;
+}
+
+#content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.imagen-principal {
+    text-align: left;
+}
+
+#content img {
+    margin-left: 20px; /* Ajusta el valor según sea necesario */
+}
+
+
+/* Estilos para la tabla */
+table {
+    max-width: 680px;
+    border-collapse: collapse; /* Fusiona los bordes de las celdas */
+}
+
+/* Estilos para las celdas de encabezado y datos */
+th, td {
+    padding: 8px; /* Espaciado interno de las celdas */
+    text-align: left; /* Alineación del texto a la izquierda */
+    border: 1px solid #ddd; /* Borde delgado para todas las celdas */
+}
+
+/* Estilo específico para la columna de acciones */
+.acciones {
+    width: 150px; /* Ancho fijo para la columna de acciones */
+}
+
+#ids{
+    width: 50px;
+}
+
+#nombre{
+    width: 200px;
+}
+
+#precio{
+    width: 150px;
+}
+
+#stock{
+    width: 120;
+}
